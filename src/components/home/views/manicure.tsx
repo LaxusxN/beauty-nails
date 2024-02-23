@@ -26,7 +26,7 @@ const uñas = [
 ];
 export const Manicure: FC<ManicureProps> = () => {
   return (
-    <div className="bg-[#F5F5F5]">
+    <div className="bg-[#F5F5F5] p-16">
       <h1 className="text-center text-4xl ">MANICURE</h1>
       {uñas.map((index) => (
         <ManicureInfo
