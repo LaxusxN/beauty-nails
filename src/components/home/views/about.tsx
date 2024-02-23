@@ -8,11 +8,20 @@ interface AboutProps {
 export const About: FC<AboutProps> = () => {
   return (
     <div
-      className="flex justify-center items-center 
-       w-full p-16 gap-8 bg-[#E6E6FA] "
+      className="flex flex-col
+      sm:flex-row sm:justify-center items-center 
+       w-full p-16 gap-8 bg-orange-100 "
     >
-      <img src={about} className="rounded-full h-[500px] w-[500px]" />
-      <h1 className="w-[700px] text-xl text-center">
+      <img
+        src={about}
+        className="rounded-full grow-0 shrink-0 
+        w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] 
+        object-cover object-center"
+      />
+      <h1
+        className="w-[250px]  text-lg text-orange-600 font-bold
+        sm:w-[700px] sm:text-xl text-center"
+      >
         ¡Hola! Soy una manicurista apasionada que está dando sus primeros pasos
         en este maravilloso mundo del cuidado de uñas. Me llamo Nita y estoy
         aquí para cuidar tus manos y uñas con dedicación y entusiasmo. ¡Espero

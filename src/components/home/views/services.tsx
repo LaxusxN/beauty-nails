@@ -15,24 +15,30 @@ const services = [
     info: "Limpieza",
   },
   {
-    image: retiro,
-    info: "Retiro",
+    image: tecnicas,
+    info: "Diversas técnicas",
   },
   {
     image: mantenimiento,
     info: "Mantenimiento",
   },
   {
-    image: tecnicas,
-    info: "Diversas técnicas",
+    image: retiro,
+    info: "Retiro",
   },
 ];
 export const Services: FC<ServicesProps> = () => {
   return (
-    <div className="p-16 bg-[#E6E6FA] flex flex-col gap-8">
+    <div
+      className="p-16 bg-orange-100
+      flex flex-col gap-8"
+    >
       <h1 className="text-center text-4xl">Se realiza</h1>
       <div
-        className="grid grid-cols-[500px_500px] justify-center items-center gap-8  
+        className="
+        flex flex-col
+        lg:grid lg:grid-cols-[500px_500px] lg:justify-center items-center
+        gap-8  
        "
       >
         {services.map((index) => (

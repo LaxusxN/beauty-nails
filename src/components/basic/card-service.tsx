@@ -21,19 +21,21 @@ const estiloTexto: CSSProperties = {
 export const CardService: FC<CardServiceProps> = ({ image, info }) => {
   return (
     <div
-      className="w-[400px] relative cursor-pointer
-          hover:shadow-lg hover:scale-105 transition duration-300 
+      className=" flex flex-col-reverse gap-4
+      sm:w-[400px] sm:relative sm:cursor-pointer
+          sm:hover:shadow-lg sm:hover:scale-105 sm:transition sm:duration-300 
           "
     >
       <img
         src={image}
         className="rounded-lg cursor-pointer
-          h-[350px] w-[400px]
+          w-[300px] h-[300px] sm:h-[350px] sm:w-[400px]
             "
       />
       <div
-        className="opacity-0 hover:opacity-100 duration-300 absolute cursor-pointer
-            inset-0 z-10 flex justify-center items-center 
+        className="
+        sm:opacity-0 sm:hover:opacity-100 sm:duration-300 sm:absolute cursor-pointer
+            sm:inset-0 sm:z-10 sm:flex sm:justify-center sm:items-center 
             "
         style={estiloTexto}
       >

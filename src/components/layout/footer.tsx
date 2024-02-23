@@ -12,7 +12,7 @@ interface FooterProps {
 const media = [
   {
     name: faWhatsapp,
-    url: "https://wa.link/860yyh",
+    url: "https://wa.link/eei8ku",
   },
   {
     name: faFacebook,
