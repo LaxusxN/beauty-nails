@@ -20,7 +20,7 @@ const media = [
   },
   {
     name: faInstagram,
-    url: "https://www.instagram.com/nita.unas.sistema.de.unas/",
+    url: "https://www.instagram.com/beuty.nails.lima/",
   },
   {
     name: faTiktok,
