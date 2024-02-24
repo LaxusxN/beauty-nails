@@ -10,7 +10,7 @@ export const About: FC<AboutProps> = () => {
     <div
       className="flex flex-col
       sm:flex-row sm:justify-center items-center 
-       w-full p-16 gap-8 bg-orange-100 "
+       w-full p-16 gap-8 bg-rose-100 "
     >
       <img
         src={about}
@@ -19,7 +19,7 @@ export const About: FC<AboutProps> = () => {
         object-cover object-center"
       />
       <h1
-        className="w-[250px]  text-lg text-orange-600 font-bold
+        className="w-[250px]  text-lg text-gray-700 font-sans
         sm:w-[700px] sm:text-xl text-center"
       >
         ¡Hola! Soy una manicurista apasionada que está dando sus primeros pasos

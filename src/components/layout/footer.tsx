@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faWhatsapp,
+  // faWhatsapp,
   faInstagram,
   faTiktok,
   faFacebook,
@@ -10,10 +10,10 @@ interface FooterProps {
   prop?: string;
 }
 const media = [
-  {
-    name: faWhatsapp,
-    url: "https://wa.link/eei8ku",
-  },
+  // {
+  //   name: faWhatsapp,
+  //   url: "https://wa.link/eei8ku",
+  // },
   {
     name: faFacebook,
     url: "https://www.facebook.com/profile.php?id=61556934022189&is_tour_completed=true",
@@ -35,12 +35,12 @@ const handleRedirect = (url: string) => {
 export const Footer: FC<FooterProps> = () => {
   return (
     <div className="flex flex-col p-16 gap-8">
-      <h1 className="text-white text-2xl font-sans">Redes Sociales:</h1>
+      <h1 className="text-white text-2xl font-sans">Contáctame:</h1>
       <div className=" flex justify-between">
         {media.map((index) => (
           <FontAwesomeIcon
             icon={index.name}
-            style={{ color: "#ffffff", height: 40, cursor: "pointer" }}
+            style={{ color: "#ffffff", height: 60, cursor: "pointer" }}
             onClick={() => handleRedirect(index.url)}
           />
         ))}

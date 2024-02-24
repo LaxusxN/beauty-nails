@@ -30,7 +30,7 @@ const services = [
 export const Services: FC<ServicesProps> = () => {
   return (
     <div
-      className="p-16 bg-orange-100
+      className="p-16 bg-rose-100
       flex flex-col gap-8"
     >
       <h1 className="text-center text-4xl">Se realiza</h1>

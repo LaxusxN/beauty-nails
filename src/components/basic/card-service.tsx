@@ -6,16 +6,17 @@ interface CardServiceProps {
 }
 
 const estiloTexto: CSSProperties = {
-  color: "#fff",
+  color: "#000000",
   textShadow:
-    "0 0 10px #00ff00, " +
-    "0 0 20px #00ff00, " +
-    "0 0 30px #00ff00, " +
-    "0 0 40px #00ff00, " +
-    "0 0 50px #00ff00, " +
-    "0 0 60px #00ff00, " +
-    "0 0 70px #00ff00",
+    "0 0 10px #66b7280, " +
+    "0 0 20px #66b7280, " +
+    "0 0 30px #66b7280, " +
+    "0 0 40px #66b7280, " +
+    "0 0 50px #66b7280, " +
+    "0 0 60px #66b7280, " +
+    "0 0 70px #66b7280",
   textAlign: "center",
+  fontFamily: "serif",
 };
 
 export const CardService: FC<CardServiceProps> = ({ image, info }) => {
@@ -33,7 +34,7 @@ export const CardService: FC<CardServiceProps> = ({ image, info }) => {
             "
       />
       <div
-        className="
+        className=" text-5xl
         sm:opacity-0 sm:hover:opacity-100 sm:duration-300 sm:absolute cursor-pointer
             sm:inset-0 sm:z-10 sm:flex sm:justify-center sm:items-center 
             "

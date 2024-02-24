@@ -18,10 +18,10 @@ export const ManicureInfo: FC<ManicureInfoProps> = ({
 ${reverse ? "flex-row-reverse" : "flex-row"}`}
     >
       <div
-        className="text-center text-xl font-sans
+        className="text-center text-xl font-thin
         "
       >
-        <h1>{text}</h1>
+        <h1 className="text-black">{text}</h1>
       </div>
       <img
         src={image}

@@ -9,7 +9,7 @@ interface LayoutProps {
 
 export const Layout: FC<LayoutProps> = ({ children }) => {
   return (
-    <div className="bg-[#333333]">
+    <div className="bg-red-300">
       <Header />
       {children}
       <Footer />
