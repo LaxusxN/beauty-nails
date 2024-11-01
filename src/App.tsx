@@ -9,12 +9,18 @@ const handleRedirect = (url: string) => {
 
 function App() {
   return (
-    <div className="flex flex-col items-cenbg-[#F0F0F0] gap-8">
+    <div className="relative flex flex-col items-cenbg-[#F0F0F0] gap-8">
       <Layout>
-        <div className="absolute right-8 bottom-8">
+        <div className="fixed right-8 bottom-8">
           <FontAwesomeIcon
             icon={faWhatsapp}
-            style={{ color: "#ffffff", height: 60, cursor: "pointer" }}
+            style={{
+              color: "#ffffff",
+              height: 50,
+              cursor: "pointer",
+              backgroundColor: "#25D366",
+              borderRadius: "50%",
+            }}
             onClick={() => handleRedirect("https://wa.link/hixbm9 ")}
           />
         </div>
