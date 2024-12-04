@@ -4,7 +4,6 @@ import {
   // faWhatsapp,
   faInstagram,
   faTiktok,
-  faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
 interface FooterProps {
   prop?: string;
@@ -14,10 +13,6 @@ const media = [
   //   name: faWhatsapp,
   //   url: "https://wa.link/eei8ku",
   // },
-  {
-    name: faFacebook,
-    url: "https://www.facebook.com/profile.php?id=61556934022189&is_tour_completed=true",
-  },
   {
     name: faInstagram,
     url: "https://www.instagram.com/beuty.nails.lima/",
