@@ -24,7 +24,7 @@ const media = [
   },
   {
     name: faTiktok,
-    url: "https://www.tiktok.com/@beaty.nails.lima",
+    url: "https://www.tiktok.com/@beauty.nails.lima?_t=8rwL3E0m5fs&_r=1",
   },
 ];
 
